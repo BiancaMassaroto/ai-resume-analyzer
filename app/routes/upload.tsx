@@ -60,7 +60,7 @@ const upload = () => {
     setStatusText("Analyzing...");
 
     const feedback = await ai.feedback(
-      uploadedFile.path,
+      uploadedImage.path,
       prepareInstructions({
         jobTitle,
         jobDescription,

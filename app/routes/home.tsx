@@ -51,8 +51,6 @@ export default function Home() {
           ) : (
             <h2>Review your submissions and check AI-powered feedback.</h2>
           )}
-
-          <h2>Review your submissions and check AI-powered feedback.</h2>
         </div>
         {loadingResumes && (
           <div className="flex flex-col items-center justify-center">
